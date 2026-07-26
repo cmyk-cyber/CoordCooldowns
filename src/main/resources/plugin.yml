@@ -1,0 +1,24 @@
+name: CoordCooldowns
+version: 1.0.0
+main: com.example.coordcooldown.CoordCooldownPlugin
+api-version: '1.21'
+commands:
+  leakcord:
+    description: Start leaking coordinates of a player.
+    permission: op
+  stopcords:
+    description: Stop leaking coordinates of a player.
+    permission: op
+  mace:
+    description: Set Mace cooldown in seconds.
+    permission: op
+  enderpearl:
+    description: Set Ender Pearl cooldown in seconds.
+    permission: op
+  windcharge:
+    description: Set Wind Charge cooldown in seconds.
+    permission: op
+permissions:
+  coords.track:
+    description: Permission to see tracked coordinates in the action bar.
+    default: op
